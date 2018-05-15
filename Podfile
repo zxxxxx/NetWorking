@@ -6,7 +6,7 @@ target 'NetWorking' do
   # use_frameworks!
 
   # Pods for NetWorking
-    pod ‘AFNetworking’
+    pod 'AFNetworking', '~> 3.0'
 
   target 'NetWorkingTests' do
     inherit! :search_paths
